@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRINITY CATHOLIC HIGH </title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="shortcut icon" type="image" href="img/ff.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body class="third-bg" onload="slider()">
+    
+    <div class="boss">
+
+    
+        <div class="fast">
+            <h1 id="try">TRINITY</h1><h1 id="cat">CATHOLIC</h1>
+            <h1 id="high">HIGH SCH</h1>
+            <img src="img/ff.png" id="front">
+            <ul class="level">
+                <a href="home.html"><li> HOME</li></a>
+                <a href="ABOUT US .HTML"><li> ABOUT US</li></a>
+                <a href="FOUNDER.html"><li>REGISTER</li></a>
+                <a href="learning.html"><li>E-learning</li></a>
+                <a href="STAFF.HTML"><li>STAFF</li></a>
+                <a href="academics.html"><li id="about">ACADEMICS</li></a>
+           </ul>
+        </div>
+    <!-- my first div -->
+    <div class="second">
+        <div class="banner">
+            <div class="slider">
+             <img src="img/lib (3).jpg" id="sliderimg">
+            </div> 
+            <div class="overlay">
+              <div class="menu">
+                <h4>WELL STOCKED LIBRALY</h4><br>
+               <p> We offer text book borrowing and the libraly has conducive temps</p>
+              </div>
+            </div>
+          </div>
+          <script>
+             var sliderimg = document.getElementById("sliderimg");
+             var img = new Array(
+                "img/lib (1).jpg",
+                "img/lib (2).jpg",
+                "img/lib (3).jpg",
+             );
+             var len = img.length;
+            var i = 0;
+            function slider(){
+              if(i> len-1){
+                  i= 0;
+              }
+              sliderimg.src=img[i];
+              i++;
+              setTimeout('slider()',3000);
+              
+              
+            }
+
+
+
+
+          </script>
+    </div>
+    <!-- my second div -->
+    <div class="third">
+<h2>REACH US ONLINE</h2>
+<ul class="image">
+<li><img src="img/two.png" alt="" id="pic"></li>
+<li><img src="img/b.png" alt="" id="pic"></li>
+<li><img src="img/int.png" alt=""id="pic"></li>
+<li><img src="img/you.png" alt="" id="pics"></li>
+</ul>
+<h2 class="tap">INSTANTLY</h2>
+<ul class="contact">
+    <li>TELL : +256-786962570</li>
+    <li>FAX  : 8880034</li>
+    <li>E-mail:trinityhigh@gmail.com</li>
+</ul>
+    </div>
+<!-- my third div -->
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    
+    
+</body>
+</html>

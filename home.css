@@ -1,0 +1,280 @@
+ /* backgrounds */
+.overlay{
+    background-color: #0000008a;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 50%;
+    padding-top: 100px;
+    position: absolute;
+    top: 60%;
+}
+ body{
+     background-image: url(img/home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+
+} 
+.fifth-bg{
+    background-image: url(img/form.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.second-bg{
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third-bg{
+    background-image: url(img/rea.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* intro to divs */
+.boss{
+    /* border:red  5px; */
+}
+.fast{
+    /* border: blue solid 5px; */
+    background-color: rgb(6, 68, 6);
+    width: 100%;
+    height: 185px;
+    border-radius: 30px;
+}
+.second{
+    /* border: black solid 5px; */
+    /* background-color: rgb(253, 220, 33); */
+    width: 100%;
+    height: 500px; 
+}
+.third{
+    /* border: green solid 5px; */
+    background-color: #0009;
+    width: 100%;
+    height: 200px;
+}
+.thirds{
+    background-color: #0009;
+    width: 100%;
+    height: 180px  
+}
+/* items in first div */
+.level
+{
+display: flex;
+list-style-type: none;
+justify-content: right;
+background-size: 30px;
+color: rgb(235, 239, 240);
+padding: 150px;
+
+}
+.level li {
+    padding-right: 20px;
+}
+.level a{
+    color: rgb(243, 247, 11);
+    text-decoration: none;
+}
+.level a:hover{
+    color: rgb(250, 248, 248);
+    font-size: large;
+    text-decoration: white underline;
+}
+#front{
+    width: 100px;
+    height: 80px;
+    vertical-align: middle;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+/* tittle lable */
+#try{
+    font-family: Algerian;
+    font-size: 60px;
+    color: white;
+    position: absolute ;
+    left: 240px;
+    top: -8px;
+}
+
+#cat{
+    font-family: Algerian;
+    font-size: 60px;
+    color: white;
+    position: absolute ;
+    left: 490px; 
+    top: -8px;
+}
+#high{
+    font-family: Algerian;
+    font-size: 60px;
+    color: white;
+    position: absolute ;
+    left: 380px; 
+    top: 50px;
+}
+#about{
+    color: rgb(10, 123, 252);
+}
+/*social media handles  */
+.images{
+    display: flex; 
+   text-decoration: none;
+   padding: 20px;
+   position: absolute;
+   top: 850px;
+   left: 1%;
+   list-style-type: none;
+   
+}
+.images li{
+    padding: 10px;
+}
+.image{
+     display: flex; 
+    text-decoration: none;
+    padding: 20px;
+    position: absolute;
+    top: 720px;
+    left: 1%;
+    list-style-type: none;
+    
+}
+.image li{
+    padding: 10px;
+} 
+#pic{
+    width: 40px;
+    height: 40px;
+
+}
+#us{
+    color: white;
+    position: absolute;
+    top: 810px;
+    left: 5%;
+    opacity: 0.4;
+}   
+
+h2{
+    color: white;
+    position: absolute;
+    top: 680px;
+    left: 50px;
+    opacity: 0.4;
+}
+#pics{
+    width: 60px;
+    height: 40px;
+}
+/* contact  in third div */
+.contact{
+    list-style-type: none;
+    padding: 30px;
+    float: right;
+    color: white;
+}
+.contact li{
+    padding: 12px;
+}
+.inst{
+    color: white;
+    position: absolute;
+    left: 75%;
+    top: 800px;
+    opacity: 0.4;
+  
+}
+.tap{
+    color: white;
+    
+    position: absolute;
+    left: 800px;
+    bottom: 20%;
+    opacity: 0.4;
+ 
+}
+#fed{
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 700px;
+    opacity: 0.4;
+  
+}
+
+/* sliders in home page */
+.banner{
+width: 99% ;
+height:505px;
+position: absolute;
+top: 30%;
+left: 1%;
+overflow: hidden;
+}
+.slider{
+width: 99% ;
+height: 505px;
+position: absolute;
+top: 0;
+}
+#sliderimg{
+    width: 100%;
+    height: 505px;
+    border-radius: 20px;
+}
+ 
+
+.overlay{
+    width: 99%;
+    height: 505px;
+    background: -o-linear-gradient(rgba(0,0,0.9));
+    position: absolute;
+    top: 30%;
+    left: 1%;
+}
+.menu{
+    width: 60%;
+    margin: 120px auto 0;
+    text-align: center;
+    color:white ;
+    font-size: xx-large;
+}
+.menu h4{
+    color: rgba(243, 208, 8, 0.938);
+    font-size: 70px;
+    position: absolute;
+   bottom: 50%;
+   left: 7%;
+}
+#move{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-family: Broadway;
+    font-weight: bolder;
+    font-size: 100px;
+}
+p{
+    color: white;
+    font-size: 18px;
+}
+#logo{
+    width: 300px;
+    height: 350px;
+    border-radius: 30px;
+}
+#mean{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+}

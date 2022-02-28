@@ -1,0 +1,129 @@
+.main-li{
+    display: flex;
+    list-style-type: none;
+padding-top: -1px;
+padding-left: 50px;
+}
+ #feel{
+padding: 10px;
+width: 200px;
+height: 200px;
+border-radius: 30px;
+ }  
+ .main{
+    display: flex;
+    list-style-type: none;
+padding-top: 25px;
+padding-left: 50px;
+}
+ #fel{
+padding: 10px;
+width: 200px;
+height: 200px;
+border-radius: 30px;
+ }      
+ .mains{
+list-style-type: none;
+position: absolute;
+top: 220px;
+left: 90%;
+}
+ #free{
+padding: 4px;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+ }      
+ .main-two{
+    list-style-type: none;
+    position: absolute;
+    top: 220px;
+    left: 68%;
+    }
+     .main-third{
+        list-style-type: none;
+        position: absolute;
+        top: 220px;
+        left: 46%;
+        }
+         .main-forth{
+            list-style-type: none;
+            position: absolute;
+            top: 220px;
+            left: 24%;
+            }  
+            .main-fifth{
+                list-style-type: none;
+                position: absolute;
+                top: 490px;
+                left: 41%;
+                } 
+                #free{
+                    padding: 4px;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                     }       
+                .main-seven{
+                    list-style-type: none;
+                    position: absolute;
+                    top: 490px;
+                    left: 19%;
+                    } 
+                    #fre{
+                        padding: 4px;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                         }      
+                    .main-eight{
+                        list-style-type: none;
+                        position: absolute;
+                        top: 490px;
+                        left: 63%;
+                        }
+                        .main-sixth{
+                            list-style-type: none;
+                            position: absolute;
+                            top: 490px;
+                            left: 85%;
+                            }
+.names{
+  display: flex;  
+  position: absolute;
+  top: 320px;
+  left: 5px;
+  list-style-type: none;
+}  
+#smart{
+    padding: 30px;
+    color: rgb(12, 107, 185);
+    
+} 
+.name{
+    display: flex;  
+    position: absolute;
+    top: 340px;
+    left: 5px;
+    list-style-type: none;
+  }  
+  #mart{
+      padding: 30px;
+      color: rgb(33, 173, 20)
+      
+  }                          
+  .names-one{
+    display: flex;  
+    position: absolute;
+    top: 590px;
+    left: 5px;
+    list-style-type: none;  
+  }   
+  .name-one{
+    display: flex;  
+    position: absolute;
+    top: 610px;
+    left: 5px;
+    list-style-type: none;
+  }  
+ 
